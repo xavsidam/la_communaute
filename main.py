@@ -96,6 +96,12 @@ def count_each_day(member, emoji_to_count):
 
 # Exemple d'utilisation
 file_path = 'Discussion WhatsApp avec La communauté.txt'
+# # enlève les deux premières lignes de la discussion
+# with open(file_path, 'r', encoding='utf-8') as file:
+#     content = file.readlines()
+# with open(file_path, 'w', encoding='utf-8') as file:
+#     file.writelines(content[2:])
+
 emoji_to_count = '💩'
 member_to_count = ['Jordan Litaud', 'Xavier Sidambarompoulé', 'Maxime Picard', 'Kévin Champeroux', 'Florian']
 
